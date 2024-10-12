@@ -28,7 +28,7 @@ jobs:
 
     # 4. Construire l'image Docker
     - name: Build Docker image
-      run: docker build . -t lpoi/osintazurefunctionimage
+      run: docker build --no-cache . -t lpoi/osintazurefunctionimage
 
     # 5. Pousser l'image sur Docker Hub (optionnel)
     - name: Push Docker image
