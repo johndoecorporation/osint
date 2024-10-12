@@ -1,0 +1,7 @@
+.env
+venv/
+/test/
+*.vscode
+*__py__cache__
+docker_build.sh
+docker_run.sh
