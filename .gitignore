@@ -3,5 +3,6 @@ venv/
 /test/
 *.vscode
 *__py__cache__
+*__pycache__
 docker_build.sh
 docker_run.sh
