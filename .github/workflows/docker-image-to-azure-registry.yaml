@@ -33,7 +33,7 @@ jobs:
     # 5. Pousser l'image vers Azure Container Registry
     - name: Push Docker image
       run: |
-        docker push ${{ secrets.ACR_SERVER }}/osint:latest-----
+        docker push ${{ secrets.ACR_SERVER }}/osint:latest
 
 
 
